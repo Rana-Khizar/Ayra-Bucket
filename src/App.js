@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Home from './components/Home';
-import Stores from './components/Stores';
-import Team from './components/Team';
-import About from './components/About';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Stores from './components/Stores/Stores';
+import Team from './components/Team/Team';
+import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 const App = () => {

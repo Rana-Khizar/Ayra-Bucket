@@ -22,31 +22,6 @@ body {
   padding-top: 80px;
 }
 
-/* Animation Classes */
-.fade-in {
-  animation: fadeIn 1s ease-in;
-}
-
-.slide-up {
-  animation: slideUp 0.8s ease-out;
-}
-
-.bounce {
-  animation: bounce 2s infinite;
-}
-
-.pulse {
-  animation: pulse 2s infinite;
-}
-
-.scale-on-hover {
-  transition: transform 0.3s ease;
-}
-
-.scale-on-hover:hover {
-  transform: scale(1.05);
-}
-
 /* Keyframes */
 @keyframes fadeIn {
   from {
@@ -141,7 +116,7 @@ body {
 }
 
 /* Card Styles */
-.card {
+/* .card {
   background: white;
   border-radius: 20px;
   padding: 2rem;
@@ -152,7 +127,7 @@ body {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* Responsive */
 @media (max-width: 768px) {

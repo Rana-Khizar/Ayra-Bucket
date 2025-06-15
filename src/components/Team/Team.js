@@ -1,33 +1,35 @@
 import React from 'react';
 import { Users } from 'lucide-react';
+import Pic1 from '../../Image/Pic1.jpg';
+import zee from '../../Image/zee.png';
 import './Team.css';
 
 const Team = () => {
   const teamMembers = [
     {
-      name: "Sarah Johnson",
+      name: "Rana Zeeshan Khan",
       position: "CEO & Founder",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
+      image: [zee],
       description: "Visionary leader with 10+ years in international trade"
     },
     {
-      name: "Michael Chen",
+      name: "Rana Khizar",
       position: "Operations Manager",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+      image: [Pic1],
       description: "Expert in logistics and supply chain management"
     },
     {
-      name: "Emma Rodriguez",
-      position: "Marketing Director",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
+      name: "Pankaj Kumar",
+      position: "Marketing Advisor",
+      image: [Pic1],
       description: "Digital marketing specialist focused on global expansion"
-    },
-    {
-      name: "James Wilson",
-      position: "Sales Team Lead",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
-      description: "Results-driven sales professional with international experience"
     }
+    // {
+    //   name: "James Wilson",
+    //   position: "Sales Team Lead",
+    //   image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
+    //   description: "Results-driven sales professional with international experience"
+    // }
   ];
 
   return (
@@ -87,54 +89,3 @@ const Team = () => {
 };
 
 export default Team;
-// import React from 'react';
-// import './Team.css';
-
-// const teamMembers = [
-//   {
-//     name: 'Alice Johnson',
-//     designation: 'CEO & Founder',
-//     image: 'https://i.pravatar.cc/300?img=1'
-//   },
-//   {
-//     name: 'Mark Davis',
-//     designation: 'Lead Developer',
-//     image: 'https://i.pravatar.cc/300?img=2'
-//   },
-//   {
-//     name: 'Sarah Thompson',
-//     designation: 'UI/UX Designer',
-//     image: 'https://i.pravatar.cc/300?img=3'
-//   },
-//   {
-//     name: 'Daniel Lee',
-//     designation: 'Marketing Head',
-//     image: 'https://i.pravatar.cc/300?img=4'
-//   }
-// ];
-
-// const Team = () => {
-//   return (
-//     <section className="team-section">
-//       <h2 className="team-title">Meet Our Team</h2>
-//       <p className="team-subtitle">The people who make the magic happen</p>
-//       <div className="team-grid">
-//         {teamMembers.map((member, index) => (
-//           <div
-//             key={index}
-//             className="team-card fade-in"
-//             style={{ animationDelay: `${index * 0.2}s` }}
-//           >
-//             <div className="team-img-wrapper">
-//               <img src={member.image} alt={member.name} className="team-img" />
-//             </div>
-//             <h3 className="team-name">{member.name}</h3>
-//             <p className="team-role">{member.designation}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Team;

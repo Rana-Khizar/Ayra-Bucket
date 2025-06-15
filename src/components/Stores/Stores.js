@@ -7,7 +7,7 @@ const Stores = () => {
     {
       id: 'tiktok',
       name: 'TikTok Shop',
-      url: 'https://shop.tiktok.com',
+      url: 'https://www.tiktok.com/@user1924612653083?_t=ZS-8wenI0snBOy&_r=1',
       description: 'Trending products for the social generation',
       icon: <Play size={24} />,
       gradient: 'tiktok-gradient'
