@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="footer-contact">
           <h3 className="footer-title">Contact</h3>
           <p><Mail size={16} /> info@ayrainternational.com</p>
-          <p><MapPin size={16} /> Dubai, UAE • New York, USA</p>
+          <p><MapPin size={16} /> Nottingham • United Kingdom</p>
           <div className="footer-social">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><Facebook size={20} /></a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><Instagram size={20} /></a>
