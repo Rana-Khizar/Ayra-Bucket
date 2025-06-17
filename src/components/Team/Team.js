@@ -1,6 +1,7 @@
 import React from 'react';
 import { Users } from 'lucide-react';
 import Pic1 from '../../Image/Pic1.jpg';
+import Pic2 from '../../Image/Pic2.jpg';
 import zee from '../../Image/zee.png';
 import './Team.css';
 
@@ -21,7 +22,7 @@ const Team = () => {
     {
       name: "Pankaj Kumar",
       position: "Marketing Advisor",
-      image: [Pic1],
+      image: [Pic2],
       description: "Digital marketing specialist focused on global expansion"
     }
     // {
